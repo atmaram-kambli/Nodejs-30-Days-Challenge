@@ -1,1 +1,0 @@
-Hi there, I'm starting Nodejs 30 Days Challenge by Scaler Dicord.
