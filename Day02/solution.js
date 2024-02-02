@@ -1,4 +1,5 @@
 import fs from 'fs';
+import path from 'path';
 
 
 function writeToFile(filePath, content) {
@@ -7,7 +8,7 @@ function writeToFile(filePath, content) {
             console.log(err.message + "😑")
         }
         else {
-            console.log(`Data written to ${filePath}👍`)
+            console.log(`Data written to ${path.basename(filePath)}👍`)
         }
     })
 }
